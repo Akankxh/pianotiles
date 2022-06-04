@@ -1,0 +1,36 @@
+*{
+    color: rgb(1,69,69);
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: bolder;
+}
+
+header {
+    text-align: center;
+}
+h1{
+    position: relative;
+}
+body {
+    /*background-color: rgb(78, 78, 164);*/
+    background: grey url("batman_PNG51.png") no-repeat fixed center;
+}
+table{
+    border: 2px double whitesmoke
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 10em;
+}
+td {
+    padding: 3em;
+    border: 1px solid whitesmoke;
+    background-color: black;
+    border-radius: 5px;
+}
+p{
+    position:absolute;
+    left: 100px;
+    font-size: large;
+}
+td:hover{
+    cursor: pointer;
+}
